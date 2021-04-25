@@ -46,6 +46,9 @@ span{
     height: auto;
 }
 header{
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 100%;
     height: 250px;
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
@@ -64,6 +67,8 @@ header{
     height: 250px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     opacity: 0.8;
 }
 
@@ -72,4 +77,119 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-top: 15px;
+    overflow: auto;
+}
+
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+
+ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style-type: none;
+
+}
+
+nav li a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid  #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+
+nav li a:hover{
+    color:white;
+    background-color: #adadad;
+}
+
+i{
+    margin-right: 5px;
+    
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+
+}
+
+.icerik{
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-bottom: 15px;
+}
+
+.rsm{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: opacity 0.8s;
+}
+
+.rsm:hover{
+    opacity: 0.6;
+}
+
+h5{
+    margin: 10px;
+    color: dimgray;
+}
+
+.icerikText{
+    margin: 10px;
+    color: dimgray;
+}
+
+.btnDevam:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: rgb(60, 62, 158);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.btnDevam:hover{
+    opacity: 0.8;
+}
+
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+
 }
