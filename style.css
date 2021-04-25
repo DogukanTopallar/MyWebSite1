@@ -73,7 +73,10 @@ header{
 }
 
 #centered{
+    letter-spacing: 2px;
+    font-size: 75px;
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -157,7 +160,7 @@ main{
     opacity: 0.6;
 }
 
-h5{
+h4{
     margin: 10px;
     color: dimgray;
 }
