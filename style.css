@@ -175,8 +175,8 @@ h4{
     width: 150px;
     height: 45px;
     padding: 10px 20px;
-    background-color: rgb(60, 62, 158);
-    color: white;
+    background-color: rgb(97, 137, 211);
+    color: rgb(255, 0, 0);
     text-decoration: none;
     border-radius: 10px;
     margin: 15px;
@@ -184,6 +184,7 @@ h4{
 
 .btnDevam:hover{
     opacity: 0.8;
+    color: white;
 }
 
 footer{
@@ -195,4 +196,38 @@ footer{
     text-align: center;
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
 
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+
+}
+
+#hakkimizdaResim{
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 10px;
+    transition: opacity 0.8s;
+}
+
+#hakkimizdaResim:hover{
+    opacity: 0.8;
+}
+
+.hakYazi{
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 40px;
+    color: #494949;
+    
 }
