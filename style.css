@@ -10,7 +10,7 @@ body{
 }
 
 #social{
-    background-color: black;
+    background-color:black;
     color: white;
     height: 55px;
     width: 100%;
@@ -20,7 +20,31 @@ body{
     font-size: 18px;
     text-align: right;
     padding: 15px;
+    text-decoration: none;
 }
+
+#social>a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+#social>a>i{
+    font-size: 24px;
+}
+
+#social>i{
+    font-size: 24px;
+}
+
+.searchingButton{
+    width: 20% !important;
+    height: 30px;
+    font-size: 20px;
+}
+
 
 font{
     float: left;
@@ -28,7 +52,7 @@ font{
 }
 
 span{
-    font-size: 12px;
+    font-size: 12px;    
     letter-spacing: 1px;
 }
 
@@ -361,7 +385,7 @@ input[type=submit]{
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     float: right;
 }
 
@@ -371,6 +395,19 @@ input[type=submit]{
     height: 380px;
     border: 1px solid #d8d8d8;
     padding: 10px;
+}
 
+h2{
+    text-align: center;
+}
+
+.span1{
+    display: block;
+    font-family: Calibri;
+    margin: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 14px;
 
 }
+
