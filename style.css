@@ -135,6 +135,9 @@ nav li{
     list-style-type: none;
 
 }
+li{
+    list-style-type: none;
+}
 
 nav li a{
     height: 50px;
@@ -194,13 +197,16 @@ h4{
     color: dimgray;
 }
 
+.btnDevam {
+    color: white;
+}
+
 .btnDevam:link{
     display: block;
     width: 150px;
     height: 45px;
     padding: 10px 20px;
     background-color: rgb(97, 137, 211);
-    color: rgb(255, 0, 0);
     text-decoration: none;
     border-radius: 10px;
     margin: 15px;
